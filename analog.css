@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #534848;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    
+}
+#Pio{
+    text-align: center;
+    box-shadow: #534848;
+}
+
+header img {
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #352828;}
